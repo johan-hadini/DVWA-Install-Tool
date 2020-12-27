@@ -1,16 +1,27 @@
 #!/bin/bash
 # programed By "Suliman Almohawis" Twitter = "F14Commander" snapchat = "sulimanxx1"
 sudo service apache2 start
+wait
 sudo service mysql start
+wait
 sudo apt install wget -y
+wait
 sudo chmod -R 777 /var/www/html/
+wait
 cd /var/www/html/
+wait
 wget https://github.com/ethicalhack3r/DVWA/archive/master.zip
+wait
 unzip master.zip
+wait
 rm master.zip
+wait
 mv DVWA-master DVWA
+wait
 cd DVWA/config
+wait
 mv config.inc.php.dist config.inc.php
+wait
 clear
 echo " created By Suliman Almohawis GitHub = \"xF14x\" Twitter = \"F14Commander\""
 echo " created By Suliman Almohawis GitHub = \"xF14x\" Twitter = \"F14Commander\""
